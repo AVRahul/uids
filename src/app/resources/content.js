@@ -1,13 +1,13 @@
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Rahul weds",
+  lastName: "Divya",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Wedding Site",
   avatar: "/images/avatar.jpg",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 const social = [
   // Links are automatically displayed.
@@ -51,7 +51,7 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: "/images/gallery/img-20.jpg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -66,9 +66,9 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-17.jpg",
+      src: "/images/gallery/img-25.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-12.jpg",
@@ -91,14 +91,14 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
+      src: "/images/gallery/img-11.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-13.jpg",
+      src: "/images/gallery/img-22.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/img-14.jpg",
@@ -106,7 +106,7 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-11.jpg",
+      src: "/images/gallery/img-08.jpg",
       alt: "image",
       orientation: "vertical",
     },
@@ -116,24 +116,29 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-18.jpg",
+      src: "/images/gallery/img-07.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-19.jpg",
+      src: "/images/gallery/img-23.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-20.jpg",
+      src: "/images/gallery/img-24.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
+      src: "/images/gallery/img-13.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/gallery/img-21.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
   ],
 };

@@ -36,7 +36,7 @@ const RevealFx = forwardRef<HTMLDivElement, RevealFxProps>(
     useEffect(() => {
       const timer = setTimeout(() => {
         setIsRevealed(true);
-      }, delay * 1000);
+      }, delay * 500);
 
       return () => clearTimeout(timer);
     }, [delay]);

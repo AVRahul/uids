@@ -49,9 +49,9 @@ export default function Home() {
           }),
         }}
       />
-      <Column fillWidth paddingY="l" gap="m">
+      <Column fillWidth paddingY="l" gap="l">
         <Column maxWidth="s">
-          <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
+          <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="l">
             <Heading wrap="balance" variant="display-strong-l">
               {home.headline}
             </Heading>

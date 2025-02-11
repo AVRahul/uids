@@ -59,7 +59,7 @@ export const Header = () => {
         horizontal="center"
       >
         <Flex paddingLeft="12" fillWidth vertical="center" textVariant="body-default-s">
-          {<Flex>India</Flex>}
+          {<Flex>Our Wedding Story</Flex>}
         </Flex>
         <Flex fillWidth horizontal="center">
           <Flex
